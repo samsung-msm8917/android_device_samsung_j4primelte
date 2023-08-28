@@ -18,4 +18,9 @@
          your device's memory use without going to the point of causing applications to turn
          off features. -->
     <bool name="config_avoidGfxAccel">true</bool>
+
+    <!-- Feature flag to enable memory efficient task snapshots that are used in recents optimized
+         for low memory devices and replace the app transition starting window with the splash
+         screen. -->
+    <bool name="config_lowRamTaskSnapshotsAndRecents">true</bool>
 </resources>
