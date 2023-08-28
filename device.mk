@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Inherit from msm8917-common
 $(call inherit-product, device/samsung/msm8917-common/msm8917.mk)
 
