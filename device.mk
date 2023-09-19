@@ -7,3 +7,6 @@
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Inherit from proprietary files
+$(call inherit-product, vendor/samsung/j4primelte/j4primelte-vendor.mk)
