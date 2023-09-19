@@ -13,5 +13,9 @@ TARGET_VENDOR := samsung
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j4primelte, j4primeltedx
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msm8937
+
 # Inherit from the proprietary version
 -include vendor/samsung/j4primelte/BoardConfigVendor.mk
