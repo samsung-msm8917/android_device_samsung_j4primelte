@@ -1,0 +1,11 @@
+### All blobs from this list, unless pinned and noted as otherwise,
+##  are from j4primelte 9 PPR1.180610.011 J415FXXU2BSDM
+
+# Camera-bin
+vendor/bin/mm-qcamera-daemon
+
+# Camera-sensors
+vendor/lib/libmmcamera2_sensor_modules.so
+
+# Sensors
+vendor/lib/hw/sensors.msm8937.so
