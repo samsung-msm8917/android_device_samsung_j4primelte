@@ -7,3 +7,17 @@ dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 ro.dalvik.vm.native.bridge=0
 pm.dexopt.shared=quicken
+
+# DHA Tune
+ro.config.add_bonusEFK=2
+ro.config.dha_cached_min=2
+ro.config.dha_cached_max=5
+ro.config.dha_empty_min=4
+ro.config.dha_empty_max=14
+ro.config.dha_empty_init=14
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.5
+ro.cfg.dha_2ndprop_thMB=2048
+ro.cfg.dha_cached_max=10
+ro.cfg.dha_empty_max=20
+ro.cfg.dha_empty_init=20
