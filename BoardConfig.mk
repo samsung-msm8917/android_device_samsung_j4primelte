@@ -13,6 +13,9 @@ TARGET_VENDOR := samsung
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j4primelte, j4primeltedx
 
+# Display
+TARGET_SCREEN_DENSITY := 260
+
 # Filesystem
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USES_MKE2FS := true
