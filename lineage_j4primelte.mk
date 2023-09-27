@@ -17,6 +17,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from j4primelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device Identifier. This must come after all inclusions.
 PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := j4primelte
